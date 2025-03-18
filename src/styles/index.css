@@ -85,3 +85,38 @@ nav ul li a{
 .btn a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+    header{
+        display: none;
+    }
+
+    body{
+        padding: 30px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-info h2{
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 700;
+        color: #122f5f;
+    }
+
+    .banner-info p{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .btn{
+        margin-left: 70px;
+    }
+
+    .banner-info img{
+        
+    }
+}
